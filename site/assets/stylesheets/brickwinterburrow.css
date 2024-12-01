@@ -1,0 +1,384 @@
+/* Color definitions */
+:root {
+  --bwbred: #c30f16;
+  --bwbwhite: #f4f4f4;
+  --md-footer-bg-color: #2b6a4d;
+}
+
+:root > * {
+  --md-typeset-a-color: #c30f16;
+}
+
+
+/* Header */
+[data-md-color-scheme="whiteburrow"] {
+  --md-primary-fg-color: var(--bwbred);
+}
+
+nav.md-header__inner {
+  color: var(--bwbwhite);
+}
+
+nav.md-tabs {
+  color: var(--bwbwhite);
+}
+nav.md-tabs a {
+  color: var(--bwbwhite);
+}
+
+.md-tabs__item--active .md-tabs__link {
+  color: var(--bwbwhite);
+  font-size: bold;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+	height: 1.8rem;
+	width: auto;
+}
+
+/* Nav */
+nav.md-nav.md-nav--primary.md-nav--lifted label.md-nav__title {
+  color: var(--bwbwhite);
+}
+
+@media screen and (max-width: 76.2344em) {
+  .md-nav--primary,
+  .md-nav--primary .md-nav {
+    background-color: var(--bwbred);
+  }
+}
+
+
+/* Part Headers */
+h3.header-part {
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+
+/* Blog Headers */
+p.header-blog {
+  font-weight: 400;
+  font-size: 1.0rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+  text-align: center;  
+}
+
+p.header-blog > span.header-blog-underline {
+  text-decoration: underline;
+}
+
+
+/* Footer */
+footer span.copyright-header {
+  font-size: 80%;
+}
+
+footer span.copyright-links {
+  display: block;
+  font-size: 80%;
+}
+
+footer span.copyright-logo-brick-winter-burrow img {
+  display: inline-block;
+  height: 25px;
+  margin: 0 0.1rem;
+  opacity: 0.7;
+}
+
+footer span.copyright-logo-lego img {
+  display: inline-block;
+  height: 8px;
+  opacity: 0.7;
+  vertical-align: middle;
+}
+
+
+/* Links */
+main span.md-ellipsis,
+.md-typeset a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 0.1em;
+  display: inline;
+  text-decoration: none;
+  transition: background-size 0.2s ease-out;
+}
+
+main span.md-ellipsis:hover,
+.md-typeset a:hover {
+  background-size: 100% 0.1em;
+}
+
+main span.md-ellipsis::after,
+.md-typeset a::after {
+  background: currentColor;
+  bottom: 0;
+  content: "";
+  height: 0.1em;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-out;
+  width: 100%;
+}
+
+main span.md-ellipsis:hover::after,
+.md-typeset a:hover::after {
+  transform: scaleX(1);
+}
+
+.md-typeset a:hover strong,
+.md-typeset a:hover em {
+  color: inherit;
+}
+
+
+/* Footnotes */
+.footnote hr {
+  display: none;
+}
+
+
+/* Figures */
+figure > img,
+figure > a > img {
+  border: 1px solid #aeaeae;
+}
+figure > figcaption {
+  font-size: 0.6rem;
+}
+
+figure.photo > a > img {
+  border: 5px solid #333333;
+  padding: 15px;
+}
+
+figure.photo-about > a > img {
+  border: 1px solid #333333;
+  border-radius: 2px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  height: 175px;
+  object-fit: cover;
+  width: 1000px;
+}
+
+figure.photo-history > a > img {
+  border: 1px solid #333333;
+  border-radius: 2px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  height: 175px;
+  object-fit: cover;
+}
+
+figure.photo-sitemap > a > img {
+  border: 1px solid #333333;
+  border-radius: 2px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  height: 175px;
+  object-fit: cover;
+}
+
+figure.announcement > img,
+figure.announcement > a > img {
+  border: none;
+}
+
+figure.separator > img,
+figure.separator > a > img {
+  border: none;
+  height: 25px;
+  margin-top: -30px;
+  opacity: 0.2;
+}
+
+.image-copyright {
+  color: #888888;
+  display: block;
+  font-size: 0.8em;
+}
+
+
+/* Cards */
+.md-typeset .grid.cards > ol > li,
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card ul li {
+  border: 1px solid #ddd;
+}
+
+.grid.cards.about-card > ul > li,
+.grid.cards.history-card > ul > li {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.card-read-more {
+  align-content: flex-end;
+  margin-top: auto;
+  text-align: center;
+}
+
+
+/* Blog */
+.md-post__action {
+  border-bottom: 1px solid #aeaeae;
+  padding-bottom: 2rem;
+}
+
+
+/* History / About */
+.about-steps,
+.history-steps {
+  font-size: 1.8em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+
+/* Home */
+.homepage-title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-title h1 {
+  margin-bottom: 0;
+}
+
+.homepage-title-logo {
+  margin: 1rem 0 3rem 0;
+  width: 500px;
+}
+
+.homepage-hero {
+  background-image: url("../images/brick-winter-burrow/versions/brick-winter-burrow-v2022-1.webp");
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 675px;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.homepage-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3rem 0;
+  padding: 20px 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.homepage-about article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.homepage-about h2 {
+  margin: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.homepage-about article:nth-of-type(2) {
+  border-left: 1px #aeaeae solid;
+  border-right: 1px #aeaeae solid;
+
+  @media (max-width: 768px) {
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px #aeaeae solid;
+    border-bottom: 1px #aeaeae solid;
+  }
+}
+
+.homepage-social {
+  background-image: url("../images/brick-winter-burrow/photos/brick-winter-burrow-sleigh.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0;
+  left: 50%;
+  margin-bottom: -1.2rem !important;
+  transform: translateX(-50%);
+  height: 500px;
+  width: 100vw;
+  z-index: 0;
+}
+
+.homepage-social-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 25px;
+  position: relative;
+  z-index: 1;
+  max-width: 61rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepage-social-container h2 {
+  color: var(--bwbwhite);
+  font-weight: 500;
+}
+
+.homepage-social-container .md-social__link svg {
+  fill: white;
+  max-height: 150px;
+  z-index: 2;
+}
+
+.homepage-social-container a:after {
+  display: none;
+}
+
+.homepage-social a[href="https://www.instagram.com/brickwinterburrow/"]
+{
+  transition: transform 0.2s ease;
+}
+
+.homepage-social a[href="https://www.instagram.com/brickwinterburrow/"]:hover
+{
+  color: transparent;
+  transform: scale(1.2);
+}
+
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--bwbred);
+  border-radius: 3px;
+  color: var(--bwbwhite) !important;
+  padding: 20px;
+}
+
+.btn-primary:hover {
+  background-color: var(--bwbwhite);
+  border: var(--bwbred);
+  color: var(--bwbred) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
