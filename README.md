@@ -30,10 +30,11 @@ We also share our **latest news** and **building tips** to help inspire and enha
     <img src="./media/logo-instagram.svg" alt="Logo Brick Winter Burrow" style="width: 50px; margin: 5rem;">
   </a>
 
-  <a href="https://www.flickr.com/photos/brickwinterburrow" target="_blank" title="Flickr Brick Winter Burrow">
-    <img src="./media/logo-flickr.svg" alt="Flickr Brick Winter Burrow" style="width: 50px; margin: 5rem;" style="text-decoration: none;">
+  <a href="https://www.flickr.com/photos/brickwinterburrow" target="_blank" title="Flickr Brick Winter Burrow" style="text-decoration: none;">
+    <img src="./media/logo-flickr.svg" alt="Flickr Brick Winter Burrow" style="width: 50px; margin: 5rem;">
   </a>
 </p>
+
 
 ---
 
