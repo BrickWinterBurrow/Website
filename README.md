@@ -56,3 +56,9 @@ Nous partageons également nos **dernières actualités** et **astuces de constr
 * [Website](https://www.brickwinterburrow.com)
 * [Instagram](https://www.instagram.com/brickwinterburrow)
 * [Flickr](https://www.flickr.com/photos/brickwinterburrow)
+
+<p align="center">
+  <a href="https://www.brickwinterburrow.com" target="_blank" title="Brick Winter Burrow" style="text-decoration: none;">
+    <img src="./media/logo-brickwinterburrow-red.svg" alt="Logo Brick Winter Burrow" style="width: 50px; margin: 5rem;">
+  </a>
+</p>
