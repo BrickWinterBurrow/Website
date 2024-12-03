@@ -1,4 +1,3 @@
-<h1 align="center" style="border-bottom: none;">The Brick Winter Burrow's Website</h1>
 <p align="center">
   <a href="https://www.brickwinterburrow.com" target="_blank" title="Brick Winter Burrow">
     <img src="./media/logo-brickwinterburrow-blue.svg" alt="Logo Brick Winter Burrow" style="width: 500px; margin-bottom: 1rem;">
