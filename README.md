@@ -1,28 +1,40 @@
-<h1 align="center">The Brick Winter Burrow's Website</h1>
+<h1 align="center" style="border-bottom: none;">The Brick Winter Burrow's Website</h1>
 <p align="center">
-  <img src="./media/logo.svg" alt="Logo Brick Winter Burrow" style="width: 250px;">
+  <a href="https://www.brickwinterburrow.com" target="_blank" title="Brick Winter Burrow">
+    <img src="./media/logo-brickwinterburrow-blue.svg" alt="Logo Brick Winter Burrow" style="width: 500px; margin-bottom: 1rem;">
+  </a>
 </p>
 
-🇬🇧 **Welcome to the [Brick Winter Burrow](https://www.brickwinterburrow.com)'s website!**
+---
+
+<p align="center">🇬🇧 <strong>Welcome to the <a href="https://www.brickwinterburrow.com" target="_blank" title="Brick Winter Burrow">Brick Winter Burrow</a>'s website!</strong></p>
 
 After years of quietly working on our **unique LEGO® brick creation**, we're finally ready to share it with the community. This website takes you **behind the scenes** of our winter-themed diorama, where every brick tells a story.
 
-🌟 **Discover the journey of this fascinating project:**
+<p align="center" style="margin-top: 2rem;">🌟 <strong>Discover the journey of this fascinating project:</strong></p>
 
 **Our challenges**, **our failures**, and of course, **the successes** that shaped this exceptional creation. We've turned each obstacle into a new opportunity to learn and **push the boundaries of our creativity**.
 
-🛠️ **Are you a LEGO builder at heart?**
+<p align="center" style="margin-top: 2rem;">🛠️ <strong>Are you a LEGO builder at heart?</strong></p>
 
 We also share our **latest news** and **building tips** to help inspire and enhance your own creations, featuring techniques we discover along the way.
 
-🎉 **Join us!**
+<p align="center" style="margin-top: 2rem;">🎉 <strong>Join us!</strong></p>
 
 **Become a part of this creative adventure** and let yourself be amazed by the enchanting world of the [**Brick Winter Burrow**](https://www.brickwinterburrow.com)!
 
 <p align="center">
-[![Instagram](https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png)](https://www.instagram.com/brickwinterburrow)
-  
-[![Flickr](https://upload.wikimedia.org/wikipedia/commons/5/51/Flickr_Logo.png)](https://www.flickr.com/photos/brickwinterburrow)
+  <a href="https://www.brickwinterburrow.com" target="_blank" title="Brick Winter Burrow">
+    <img src="./media/logo-brickwinterburrow-red.svg" alt="Logo Brick Winter Burrow" style="width: 50px; margin: 1rem;">
+  </a>
+
+  <a href="https://www.instagram.com/brickwinterburrow" target="_blank" title="Instagram Brick Winter Burrow">
+    <img src="./media/logo-instagram.svg" alt="Logo Brick Winter Burrow" style="width: 50px; margin: 1rem;">
+  </a>
+
+  <a href="https://www.flickr.com/photos/brickwinterburrow" target="_blank" title="Flickr Brick Winter Burrow">
+    <img src="./media/logo-flickr.svg" alt="Flickr Brick Winter Burrow" style="width: 50px; margin: 1rem;">
+  </a>
 </p>
 
 ---
