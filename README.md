@@ -24,6 +24,7 @@ We also share our **latest news** and **building tips** to help inspire and enha
 
 * [Website](https://www.brickwinterburrow.com)
 * [Instagram](https://www.instagram.com/brickwinterburrow)
+* [Facebook](https://www.facebook.com/brickwinterburrow/)
 * [Flickr](https://www.flickr.com/photos/brickwinterburrow)
 
 <p align="center">
@@ -54,6 +55,7 @@ Nous partageons également nos **dernières actualités** et **astuces de constr
 
 * [Website](https://www.brickwinterburrow.com)
 * [Instagram](https://www.instagram.com/brickwinterburrow)
+* [Facebook](https://www.facebook.com/brickwinterburrow/)
 * [Flickr](https://www.flickr.com/photos/brickwinterburrow)
 
 <p align="center">
